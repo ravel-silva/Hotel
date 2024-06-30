@@ -1,0 +1,1 @@
+assets/: Armazena arquivos estáticos como imagens, fontes e folhas de estilo globais.

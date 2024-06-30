@@ -1,0 +1,1 @@
+pages/: Cada página ou rota da aplicação pode ter sua própria pasta com componentes específicos para essa página.

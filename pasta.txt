@@ -1,0 +1,56 @@
+my-project/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   ├── styles/
+│   │   └── fonts/
+│   ├── components/
+│   │   ├── Header/
+│   │   │   ├── Header.js
+│   │   │   ├── Header.css
+│   │   │   └── ...
+│   │   └── ...
+│   ├── pages/
+│   │   ├── Home/
+│   │   │   ├── Home.js
+│   │   │   ├── Home.css
+│   │   │   └── ...
+│   │   └── ...
+│   ├── services/
+│   │   ├── api.js
+│   │   └── ...
+│   ├── utils/
+│   │   ├── helpers.js
+│   │   └── ...
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
+
+Na estrutura de diretórios de um projeto front-end, as pastas comuns e suas finalidades típicas incluem:
+
+public/: Contém arquivos estáticos que serão servidos diretamente pelo servidor web, como o arquivo HTML principal (index.html), imagens, ícones, etc.
+
+src/ (ou source): É o diretório principal onde fica todo o código-fonte do projeto. Ele pode conter subdiretórios como:
+
+assets/: Armazena arquivos estáticos como imagens, fontes e folhas de estilo globais.
+
+components/: Contém componentes reutilizáveis da interface do usuário, organizados em subdiretórios por componente.
+
+pages/: Cada página ou rota da aplicação pode ter sua própria pasta com componentes específicos para essa página.
+
+services/: Contém módulos para integração com serviços externos, como API calls.
+
+utils/: Funções utilitárias e helpers que podem ser utilizados em diferentes partes do projeto.
+
+Além desses, você pode ter diretórios adicionais conforme necessário, como tests/ para testes, config/ para configurações específicas do projeto, entre outros. Essa estrutura ajuda a manter o projeto organizado, facilitando a manutenção e colaboração.
+
+
+
+
+
+
