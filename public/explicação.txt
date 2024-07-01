@@ -1,1 +1,0 @@
-public/: Contém arquivos estáticos que serão servidos diretamente pelo servidor web, como o arquivo HTML principal (index.html), imagens, ícones, etc.

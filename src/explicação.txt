@@ -1,1 +1,0 @@
-src/ (ou source): É o diretório principal onde fica todo o código-fonte do projeto. Ele pode conter subdiretórios
