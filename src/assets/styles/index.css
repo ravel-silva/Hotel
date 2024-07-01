@@ -1,25 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-}
-.conteiner{
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+.container{
     display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 100%;
 }
-.conteiner__box{
+.login__log{
+    width: 240px;
+    filter: drop-shadow(0 4px 8px #000); 
+}
+.container__box{
     display: flex;
     width: 450px;
     background: #797FF2;
     padding: 20px;
-}
-.conteiner__formulario{
-    display: flex;
-    align-items: center;
     justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px #000;
+}
+.container__formulario{
+    display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 20px;
+    margin-top: 40px;
 }
-.conteiner__formulario, label{
+.container__formulario > label{
     align-self: flex-start;
+    padding: 2px;
+    font-family: Playfair Display, serif;
+    color: #fff;
+}
+.container__formulario > input{
+    padding: 2px 6px;
+    border-radius: 5px;
+    border: solid 1px #000;
+}
+.conteiner__botao{
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.credenciais__incorretas{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #ff0000;
+    visibility: hidden;
 }

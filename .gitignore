@@ -6,7 +6,7 @@
 .env
 .env.local
 .env.*.local
-.txt
+/.txt
 
 # Logs e arquivos temporários
 npm-debug.log*
@@ -16,3 +16,4 @@ yarn-error.log*
 # Arquivos de dependências
 package-lock.json
 yarn.lock
+*.txt
