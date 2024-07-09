@@ -1,0 +1,49 @@
+#data-entrada::-webkit-calendar-picker-indicator {
+    display: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.main-container {
+    display: flex;
+    height: 100%;
+    background-color: #e1e1e1;
+    
+}
+.cadastro-check-in{
+    background: #b4b4f4;
+    width: min-content;
+    height: min-content;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 15px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+}
+
+.grid-item {
+    padding: 6px;
+}
+.grid-item>input, select{
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px #000;
+    height: 23px;
+    padding: 0 8px;
+}
+.grid-item>#nome {
+    width: 300px;
+}
+.grid-item>#data-entrada{
+    width: 140px;
+}
+.botoes{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
