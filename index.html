@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="/src/assets/styles/index.css">
-    <link rel="stylesheet" href="/src/assets/styles/global.css">
+    <link rel="stylesheet" href="./src/assets/styles/index.css">
+    <link rel="stylesheet" href="./src/assets/styles/global.css">
+    <script src="./login.js"></script>
 
 </head>
 <body>
     <div class="container">
         <div class="container__box">
             <img class="login__log" src="log-hotel.webp" alt="erro">
-            <form class="container__formulario" action="##" method="post">
+            <form class="container__formulario" action="##" method="post" onsubmit="return login(event)">
                 <label for="usuario">Usuário:</label>
                 <input id="usuario" type="text">
                 <label for="senha">Senha:</label>

@@ -43,6 +43,7 @@ input[type="number"]::-webkit-outer-spin-button {
     width: 140px;
 }
 .botoes{
+    margin-top: 50px;
     display: flex;
     justify-content: end;
     gap: 10px;

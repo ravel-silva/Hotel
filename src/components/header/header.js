@@ -3,7 +3,7 @@ class Header extends HTMLElement{
         this.innerHTML = `
         <nav class="menu-lateral">
         <div class="logo">
-            <img src="/public/log-hotel.webp" alt="erro">
+            <img src="../../../log-hotel.webp" alt="erro">
         </div>
         <div class="menu-lateral__navegacao">
             <ul>
