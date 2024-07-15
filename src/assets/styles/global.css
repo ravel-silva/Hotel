@@ -7,6 +7,12 @@
 html, body {
     height: 100%;
 }
+.main-container {
+    display: flex;
+    height: 100%;
+    background-color: #e1e1e1;
+    
+}
 .botao{
     display: flex;
     padding: 10px;
