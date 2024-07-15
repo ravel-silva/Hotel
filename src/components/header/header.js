@@ -11,10 +11,10 @@ class Header extends HTMLElement{
                     <a href="">Reservas</a>
                 </li>
                 <li>
-                    <a href="">Check-In</a>
+                    <a href="/src/pages/check-in/check-in.html">Check-In</a>
                 </li>
                 <li>
-                    <a href="">Check-Out</a>
+                    <a href="/src/pages/check-out/check-out.html">Check-Out</a>
                 </li>
                 <li>
                     <a href="">Quartos</a>

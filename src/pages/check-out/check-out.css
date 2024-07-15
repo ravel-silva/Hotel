@@ -12,13 +12,20 @@ input[type="number"]::-webkit-outer-spin-button {
     background-color: #e1e1e1;
     
 }
-.cadastro-check-in{
+.cadastro-check-out{
     background: #b4b4f4;
     width: min-content;
     height: min-content;
     margin: 50px;
     padding: 30px;
     border-radius: 15px;
+}
+.reserva input{
+    display: flex;
+    border-radius: 5px;
+    border: solid 1px #000;
+    height: 23px;
+    padding: 0 8px;
 }
 .grid-container {
     display: grid;
@@ -30,7 +37,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .grid-item {
     padding: 6px;
 }
-.grid-item>input, select{
+.grid-item input, select{
     display: flex;
     border-radius: 5px;
     border: solid 1px #000;
