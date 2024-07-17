@@ -21,6 +21,11 @@ class Header extends HTMLElement{
                 </li>
             </ul>
         </div>
+        <div class= "exit">
+         <span>
+            <a href="../../../index.html">Exit</a>
+        </span>
+        </div>
     </nav>
     `;
     }

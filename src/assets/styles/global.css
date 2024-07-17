@@ -6,11 +6,12 @@
 }
 html, body {
     height: 100%;
+    background: #e1e1e1;
 }
 .main-container {
     display: flex;
     height: 100%;
-    background-color: #e1e1e1;
+    
     
 }
 .botao{
