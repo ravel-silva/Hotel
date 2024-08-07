@@ -8,13 +8,13 @@
   <link rel="stylesheet" type="text/css" href="../../assets/styles/global.css" />
   <link rel="stylesheet" type="text/css" href="../../components/header/header.css" />
   <link rel="stylesheet" type="text/css" href="./check-in.css" />
-  <script type="text/javascript" src="../../components/header/header.js"></script>
+  
 </head>
 
 <body>
   <div class="main-container">
     <menu-lateral></menu-lateral>
-    <form class="cadastro-check-in" action="">
+    <form class="cadastro-check-in" id="cadastro-check-in" onsubmit="return checkIn(event)">
 
       <div class="grid-container">
         <div class="grid-item">
@@ -27,7 +27,7 @@
         </div>
         <div class="grid-item">
           <label for="nomeacompanhante">Nome Acompanhante:</label><br>
-          <input type="text" id="nome" name="nomeacompanhante">
+          <input type="text" id="nomeacompanhante" name="nomeacompanhante" >
         </div>
         <div class="grid-item">
           <label for="cpfacompanhante">CPF Acompanhante:</label><br>
@@ -76,6 +76,8 @@
 
     </form>
   </div>
+  <script type="text/javascript" src="../../components/header/header.js"></script>
+  <script type="text/javascript" src="./check-in.js"></script>
 </body>
 
 </html>

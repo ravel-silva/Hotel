@@ -25,7 +25,8 @@ th {
 
 #nquarto,
 #tquarto,
-#dataentrada {
+#dataentrada,
+#datasaida {
     width: 150px;
 }
 
